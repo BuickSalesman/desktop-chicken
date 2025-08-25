@@ -23,12 +23,6 @@ const createWindow = () => {
 
 app.whenReady().then(() => {
     createWindow();
-    //stop tracking when leaving desktop space
-    setInterval(() => trackWindows(overlay), 30)
-    /*
-     * @trackWindows will need to be renamed to something like updateWindows
-     * as it will also link to hammerspoon updating coordinates from the physics engine    
-     */
 });
 
 

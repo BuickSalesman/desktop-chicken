@@ -1,21 +1,22 @@
 {
-  "name": "desktop-chicken",
-  "version": "1.0.0",
-  "description": "",
-  "main": "main.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/BuickSalesman/desktop-chicken.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
-  "bugs": {
-    "url": "https://github.com/BuickSalesman/desktop-chicken/issues"
-  },
-  "homepage": "https://github.com/BuickSalesman/desktop-chicken#readme"
+    "name": "desktop-chicken",
+    "version": "1.0.0",
+    "description": "",
+    "main": "main.js",
+    "scripts": {
+        "start": "electron .",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/BuickSalesman/desktop-chicken.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "type": "commonjs",
+    "bugs": {
+        "url": "https://github.com/BuickSalesman/desktop-chicken/issues"
+    },
+    "homepage": "https://github.com/BuickSalesman/desktop-chicken#readme"
 }
