@@ -18,5 +18,11 @@
     "bugs": {
         "url": "https://github.com/BuickSalesman/desktop-chicken/issues"
     },
-    "homepage": "https://github.com/BuickSalesman/desktop-chicken#readme"
+    "homepage": "https://github.com/BuickSalesman/desktop-chicken#readme",
+    "dependencies": {
+        "matter-js": "^0.20.0"
+    },
+    "devDependencies": {
+        "@types/matter-js": "^0.20.0"
+    }
 }
