@@ -23,6 +23,7 @@
         "matter-js": "^0.20.0"
     },
     "devDependencies": {
+        "@electron/rebuild": "^4.0.1",
         "@types/matter-js": "^0.20.0"
     }
 }
