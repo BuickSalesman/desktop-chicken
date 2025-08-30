@@ -23,3 +23,5 @@ Render.run(render);
 
 const runner = Runner.create();
 Runner.run(runner, engine);
+
+const { engine, world, render, runner } = matterCompositeSetup()
