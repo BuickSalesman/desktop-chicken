@@ -16,7 +16,7 @@ const createWindow = () => {
         hasShadow: false,
     });
 
-    overlay.loadFile("index.html")
+    overlay.loadFile("src/index/index.html")
     overlay.setIgnoreMouseEvents(true, { forward: true });
     overlay.webContents.openDevTools({ mode: "detach" });
 }
